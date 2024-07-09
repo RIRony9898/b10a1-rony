@@ -13,9 +13,19 @@ body {
   border: 2px solid red;
 }
 
-nav, main {
-    max-width: 1140px;
-    margin: 2rem auto;
+nav,
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .btn-primary {
@@ -37,10 +47,12 @@ nav, main {
 
 /* NavBar section style start */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid green;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .nav-title {
@@ -52,6 +64,39 @@ nav {
   text-align: left;
 }
 /* NavBar section style end */
+
+/* Banner section style start */
+#banner {
+    border: 2px solid green;
+    background-image: url(../assets/Hero-bg.png);
+    padding: 26px 221px 44px;
+    margin-bottom: 154px;
+}
+
+.banner {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner-title {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#banner-btn {
+    color: rgb(255, 255, 255);
+    padding: 21px 24px;
+    background-color: rgb(13, 19, 33);
+}
+/* Banner section style end */
 
 /* Header section style end */
 
