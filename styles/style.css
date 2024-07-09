@@ -1,6 +1,8 @@
 /* Google font link */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
 
+
+/* Shared styles */
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +12,8 @@ body {
   font-family: "Azeret Mono", "Inter", monospace;
   max-width: 1440px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  margin-bottom: 30px;
 }
 
 nav,
@@ -40,6 +43,7 @@ main {
 
 .btn-primary {
   color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -51,6 +55,7 @@ main {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 /* ===================================================== */
@@ -62,7 +67,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -74,6 +79,11 @@ nav {
   line-height: 33px;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
 }
 /* NavBar section style end */
 
@@ -81,14 +91,14 @@ nav {
 
 /* Banner section style start */
 #banner {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   background-image: url(../assets/Hero-bg.png);
   padding: 26px 221px 44px;
   margin-bottom: 154px;
 }
 
 .banner {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,15 +133,11 @@ nav {
 /* ---------------------------------------------------- */
 
 /* Why web dev section style start */
-#why-web-dev {
-  border: 2px solid blue;
-}
-
 .moto {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .moto-2 {
@@ -163,6 +169,7 @@ nav {
 
 .moto-btn {
   color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -174,6 +181,7 @@ nav {
   opacity: 0.7;
   background: transparent;
   margin: 2rem 0;
+  cursor: pointer;
 }
 /* Why web dev section style end */
 
@@ -181,8 +189,8 @@ nav {
 
 /* Inspiration section style start */
 #inspiration {
-  border: 2px solid green;
-  margin-top: 226px;
+  /* border: 2px solid green; */
+  margin-top: 196px;
 }
 
 .inspiration {
@@ -204,7 +212,7 @@ nav {
 
 /* Current target section style start */
 #current-target {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin-top: 150px;
 }
 
@@ -215,17 +223,19 @@ nav {
   margin-top: 3rem;
 }
 
-.ct-cart {
+.ct-cart,
+.nt-cart {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
   width: 284px;
   padding: 40px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
-.ct-cart-title {
+.ct-cart-title,
+.nt-cart-title {
   color: rgb(13, 19, 33);
   font-size: 24px;
   font-weight: 800;
@@ -234,7 +244,8 @@ nav {
   text-align: left;
 }
 
-.ct-cart-description {
+.ct-cart-description,
+.nt-cart-description {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -243,11 +254,13 @@ nav {
   text-align: left;
 }
 
-.ct-cart-link {
+.ct-cart-link,
+.nt-cart-link {
   margin-top: 1.5rem;
 }
 
-.ct-cart-link a{
+.ct-cart-link a,
+.nt-cart-link a {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 700;
@@ -258,22 +271,128 @@ nav {
 }
 
 #ct-cart-1 {
-  background-color: #FFF6F4;
+  background-color: #fff6f4;
 }
 #ct-cart-2 {
-background-color: #F2F6FE;
+  background-color: #f2f6fe;
 }
 #ct-cart-3 {
-background-color: #FFFDF2;
+  background-color: #fffdf2;
 }
 /* Current target section style end */
 
 /* ---------------------------------------------------------- */
+
+/* Next target section style start */
+#next-target {
+  /* border: 2px solid green; */
+  margin-top: 112px;
+}
+
+.nt-cart {
+  flex-direction: row;
+  width: 93%;
+  gap: 70px;
+  align-items: center;
+}
+
+.nt-carts {
+  margin-top: 3rem;
+}
+
+.nt-cart-img {
+  width: 20%;
+}
+
+.nt-cart-title {
+  margin-bottom: 1rem;
+}
+
+/* Next target section style end */
+
+/* --------------------------------------------------- */
+
+/* Support section style start */
+#support {
+  /* border: 2px solid blue; */
+  margin-top: 50px;
+  border-radius: 16px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../assets/handshake.jpg);
+  height: 316px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#support-title {
+  color: rgb(255, 255, 255);
+}
+
+#support-description {
+  color: rgb(255, 255, 255);
+}
+
+#email {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 19px 20px;
+  background: rgb(255, 255, 255);
+  width: 548px;
+}
+
+#support-btn {
+  background: rgb(255, 255, 255);
+  padding: 17px 20px;
+  border: none;
+}
+/* Support section style end */
+
+/* ----------------------------------------------------- */
 
 /* Main section style end */
 
 /* ==================================================== */
 
 /* Footer section style start */
+footer {
+  /* border: 2px solid green; */
+  margin-top: 80px;
+}
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-title {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.socials img {
+  margin-right: 1rem;
+  cursor: pointer;
+}
 /* Footer section style end */
