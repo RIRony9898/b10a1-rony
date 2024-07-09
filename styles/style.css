@@ -179,7 +179,7 @@ nav {
 
 /* ------------------------------------------------------- */
 
-/* Inspiration section start start */
+/* Inspiration section style start */
 #inspiration {
   border: 2px solid green;
   margin-top: 226px;
@@ -198,9 +198,77 @@ nav {
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
 }
-/* Inspiration section start end */
+/* Inspiration section style end */
 
 /* ------------------------------------------------------ */
+
+/* Current target section style start */
+#current-target {
+  border: 2px solid blue;
+  margin-top: 150px;
+}
+
+.ct-carts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.ct-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 284px;
+  padding: 40px;
+  border: 2px solid green;
+}
+
+.ct-cart-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ct-cart-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ct-cart-link {
+  margin-top: 1.5rem;
+}
+
+.ct-cart-link a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+#ct-cart-1 {
+  background-color: #FFF6F4;
+}
+#ct-cart-2 {
+background-color: #F2F6FE;
+}
+#ct-cart-3 {
+background-color: #FFFDF2;
+}
+/* Current target section style end */
+
+/* ---------------------------------------------------------- */
 
 /* Main section style end */
 
