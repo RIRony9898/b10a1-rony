@@ -19,6 +19,16 @@ main {
   margin: 0 auto;
 }
 
+.section-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
 .section-description {
   color: rgb(13, 19, 33);
   font-size: 16px;
@@ -43,6 +53,8 @@ main {
   opacity: 0.8;
 }
 
+/* ===================================================== */
+
 /* Header section style start */
 
 /* NavBar section style start */
@@ -65,21 +77,23 @@ nav {
 }
 /* NavBar section style end */
 
+/* ----------------------------------------------------------- */
+
 /* Banner section style start */
 #banner {
-    border: 2px solid green;
-    background-image: url(../assets/Hero-bg.png);
-    padding: 26px 221px 44px;
-    margin-bottom: 154px;
+  border: 2px solid green;
+  background-image: url(../assets/Hero-bg.png);
+  padding: 26px 221px 44px;
+  margin-bottom: 154px;
 }
 
 .banner {
-    border: 2px solid blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 .banner-title {
@@ -92,17 +106,82 @@ nav {
 }
 
 #banner-btn {
-    color: rgb(255, 255, 255);
-    padding: 21px 24px;
-    background-color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  padding: 21px 24px;
+  background-color: rgb(13, 19, 33);
 }
 /* Banner section style end */
 
+/* ---------------------------------------------------- */
+
 /* Header section style end */
+
+/* ==================================================== */
 
 /* Main section style start */
 
+/* ---------------------------------------------------- */
+
+/* Why web dev section style start */
+#why-web-dev {
+  border: 2px solid blue;
+}
+
+.moto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.moto-2 {
+    flex-direction: row-reverse;
+}
+
+.moto-contents {
+  width: 477px;
+  height: 219px;
+}
+
+.moto-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.moto-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.moto-btn {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  background: transparent;
+  margin: 2rem 0;
+}
+/* Why web dev section style start */
+
+/* ------------------------------------------------------ */
+
 /* Main section style end */
+
+/* ==================================================== */
 
 /* Footer section style start */
 
