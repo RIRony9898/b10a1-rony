@@ -135,7 +135,7 @@ nav {
 }
 
 .moto-2 {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .moto-contents {
@@ -175,7 +175,30 @@ nav {
   background: transparent;
   margin: 2rem 0;
 }
-/* Why web dev section style start */
+/* Why web dev section style end */
+
+/* ------------------------------------------------------- */
+
+/* Inspiration section start start */
+#inspiration {
+  border: 2px solid green;
+  margin-top: 226px;
+}
+
+.inspiration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspiration-link iframe {
+  margin-top: 80px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+/* Inspiration section start end */
 
 /* ------------------------------------------------------ */
 
